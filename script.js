@@ -3,9 +3,9 @@ function Topping(topping, stock, used) {
 	this.used = used;
   this.stock = stock;
 
-	//this.percentage = function() {
-		//return ((this.stock - this.used) / stock) * 100	
-	//};
+	this.percentage = function() {
+		return ((this.stock - this.used) / stock) * 100	
+	};
 }
 
 let peppers = new Topping('peppers', 30, 0);
@@ -25,4 +25,4 @@ for (let i=0; i<toppings.length; i++) {
 
 
 }
-
+//need to add css classes to new elements
